@@ -29,18 +29,4 @@ print(ddd) #{'title': 'Sony3', 'price': 300, 'link': 'aaaaa', 'name': 'Bob'}
 ddd.update({'name': 'Ron'})
 print(ddd) #{'title': 'Sony3', 'price': 300, 'link': 'aaaaa', 'name': 'Ron'} name перезаписалось
 
-# Домашка
-a = 50
-k = 5
-for i in range(1, k+1):
-    ch = int(input('ваше число: '))
-    if ch > a:
-        print(f'Неправильно, ваше число больше, осталось {k - i} попыток')
-    elif(ch < a):
-        print(f'Неправильно, ваше число меньше, осталось {k - i} попыток')
-    else:
-        print(f'Поздравляю, Вы победили c {i} раза!')
-        break
-else:
-    print('Вы проиграли, попытки закончились!')
 
